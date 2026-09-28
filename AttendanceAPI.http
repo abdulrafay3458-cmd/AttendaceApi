@@ -1,0 +1,6 @@
+@AttendanceAPI_HostAddress = http://0.0.0.0:5238
+
+GET {{AttendanceAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
