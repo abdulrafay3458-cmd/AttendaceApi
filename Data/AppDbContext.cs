@@ -48,7 +48,7 @@ namespace AttendanceAPI.Data
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer(
-                    "Server=10.1.5.239 ;database=AttendenceApp;User ID=user_development;Password=PresidentInfo;TrustServerCertificate=True;");
+                    "Server= ;database=AttendenceApp;User ID=;Password=;TrustServerCertificate=True;");
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
